@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: indigo;
+}
+
+ul{
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+button{
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    background-color: rgb(193, 193, 193);
+    border: 0;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+}
+table,
+tr {
+    text-align: center;
+    columns: 1px;
+    border-radius: 2px;
+    border-collapse: collapse;
+}
+
+tbody,
+thead {
+    padding: 0;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    margin: 0;
+    padding: 0;
+}
+
+td:last-child,
+th:last-child {
+    border-right: 0;
+    /* border-bottom: 0; */
+}
+
+th:last-child {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+td,
+th {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border-right: 1px solid rgb(50, 42, 108);
+    border-bottom: 1px solid rgb(45, 54, 148);
+    /* border-width: 90%; */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+thead {
+    color: rgb(0, 0, 88);
+}
+
+tr:last-child {
+    border-right: 0;
+}
+
+input {
+    padding: 0.6rem;
+    border: 2px solid rgb(124, 56, 124);
+    border-radius: 4px;
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(44, 44, 44);
+}
+
+input:focus {
+    outline: 0;
+    border: 3px solid purple;
+}
+
+form {
+    margin: 0.5rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid purple;
+}
+
+img{
+    display: none;
+    width: 100px;
+}
+.err{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

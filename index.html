@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth Table Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Truth Table Generator</h1>
+        <ul>
+            <li><button>&&</button> or, <button> AND </button> or, <button>∧</button> for <strong>AND</strong> operation
+                or Conjunction.
+            </li>
+            <li><button>||</button> or, <button> OR </button> or, <button>∨</button> for <strong>OR</strong> operation
+                or
+                Disjunction.</li>
+            <li><button>!</button> or, <button> NOT </button> or, <button>¬</button> for <strong>Not</strong> operation
+                or
+                Negation.</li>
+            <li><button>⊕</button> or, <button> XOR </button> for <strong>XOR</strong> operation.</li>
+        </ul>
+        <form id="ff">
+            <input type="text" name="" id="expression" required>
+        </form>
+        <table id="table-element"></table>
+        <div class="err">
+            <img src="./images/ara ara.jpeg" alt="OOPS image." id="image-element">
+            <p class="error-message"></p>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
