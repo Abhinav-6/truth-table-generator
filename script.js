@@ -351,7 +351,7 @@ function render(e) {
   e.preventDefault();
   hideError();
   tableEle.innerHTML = "";
-  str = inputEle.value;
+  str = inputEle.value.trim();
   let calculatedTable = [];
   let ATSMap = {};
   if (str) {
